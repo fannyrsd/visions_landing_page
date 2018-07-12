@@ -1,0 +1,357 @@
+/******
+GENERAL 
+******/
+body {
+    background: #F4F4F4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 36px;
+    margin-left: 40px;
+}
+
+.btn {
+    position: absolute;
+    z-index: 50;
+    width: 342px;
+    border-radius: 20em;
+    background: #FFD700;
+    color: #143556;
+    font-weight: 600;
+    text-transform: uppercase;
+    right: 40px;
+}
+
+.btn:hover {
+    background: #143556;
+    color: #FFD700;
+}
+
+/******
+MENU
+******/
+nav {
+    background: #FFD700;
+    position: fixed;
+    z-index: 100;
+}
+
+.logo_visions {
+    width: 10%;
+    margin-right: 8em;
+}
+
+#nav-mobile a {
+    color: #143556;
+    font-weight: 600;
+}
+
+#nav-mobile li {
+    margin-right: 8em;
+}
+
+/******
+SLOGAN 
+******/
+
+/* Canvas */
+canvas {
+    position: relative;
+    z-index: 1;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-color: #143556;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+/* Text */
+.slogan_container {
+    position: relative;
+}
+
+.slogan_container .slogan {
+    position: absolute;
+    top: 40%;
+    text-transform: uppercase;
+    color: #f4f4f4;
+    font-size: 64px;
+}
+
+.slogan_container .slogan b {
+    font-style: normal;
+    font-weight: 500;
+    color: #FFD700;
+}
+
+.slogan_container .btn {
+    bottom: 100px;
+}
+
+.slogan_container .scroll_indicator {
+    position: absolute;
+    bottom: 60px;
+    left: 45%;
+    width: 3em;
+    display: inline-block;
+    animation: jump_arrow infinite ease-in-out 1s;
+    will-change: bottom;
+}
+
+@keyframes jump_arrow{
+    0% {
+        bottom: 60px;
+    }
+    50% {
+        bottom: 65px;
+    }
+    100% {
+        bottom: 60px;
+    }
+}
+
+/* Privacy project management */
+.ppm_container {
+    position: relative;
+}
+
+.ppm_container .ppm_block {
+    display: inline-block;
+    width: 200px;
+    height: 272px;
+    position: relative;
+
+}
+
+.ppm_container .top {
+    margin-right: 300px;
+}
+
+.ppm_container .bottom {
+    margin-left: 300px;
+}
+
+
+.ppm_container .ppm_block .round {
+    display: inline-block;
+    background: #143556;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 50px grey;
+    color: #FFD700;
+}
+
+.ppm_container .ppm_block .round:hover {
+    cursor: pointer;
+    background: #FFD700;
+    color: #143556;
+}
+
+.ppm_container .ppm_block .ppm_box_title {
+    font-weight: 500;
+    font-size: 24px;    
+}
+
+.ppm_container .ppm_line {
+    height: 1.5px;
+    width: 300px;
+    background: #143556;
+    opacity: 0.5;
+    z-index: -20;
+}
+
+.ppm_container .ppm_line.line1 {
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: rotate(40deg);
+}
+
+.ppm_container .ppm_line.line2 {
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: rotate(40deg);
+}
+
+.ppm_container .ppm_line.line3 {
+    position: absolute;
+    top: -30%;
+    left: 30%;
+    transform: rotate(-60deg);
+}
+
+.ppm_container .ppm_picto {
+    position: absolute;
+    top: 28%;
+    left: 27%;
+    width: 90px;
+}
+
+/* They trust us */
+.trust_container {
+    position: relative;
+    background: #143556;
+    color: #f4f4f4;
+    height: 440px;
+}
+
+.trust_container .round_logo {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: #f4f4f4;
+    border-radius: 100%;
+    top: 15%;
+    margin-right: 50px;
+}
+
+.trust_container .logo_slider {
+    position: absolute;
+    width: 190px;
+    top: 25%;
+    left: 3%;
+}
+
+.trust_container .arrow_slider_right{
+    position: absolute;
+    display: inline-block;
+    top : 40%;
+    right: 40px;
+}
+
+.trust_container .arrow_slider_left{
+    position: absolute;
+    display: inline-block;
+    top : 40%;
+    left: 40px;
+}
+
+/* CLEANDATA WORKSHOPS */
+.cleandata_container {
+    position: relative;
+    height: 520px;
+}
+
+.cleandata_container .text {
+    margin-left: 70px;
+    margin-top: 5%;
+}
+
+.cleandata_container .round_logo_expert {
+    position: relative;
+    display: inline-block;
+    margin-left: 70px;
+    width: 150px;
+    height: 150px;
+    border: solid #00A359 3px;
+    border-radius: 100%;
+}
+
+.cleandata_container img.logo_expert {
+    width: 97px;
+    position: absolute;
+    left: 17%;
+}
+
+.cleandata_container img.logo_expert.cisco {
+    top: 30%;
+}
+
+.cleandata_container img.logo_expert.qwant {
+    top: 10%;
+}
+
+.cleandata_container img.logo_expert.cnil {
+    top: 30%;
+}
+
+.cleandata_container img.logo_expert.microsoft {
+    top: 20%;
+}
+
+.cleandata_container img.logo_expert.ovh {
+    top: 25%;
+}
+
+.team_container {
+    color: #f4f4f4;
+    background: #143556;
+    height: 400px;
+}
+
+.cleandata_container img.cleandata {
+    height: 150px;
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+}
+
+/* Team and partners */
+.team_container {
+    position: relative;
+}
+
+.team_container .caption {
+    margin-left: 150px;
+}
+
+.team_container .name {
+    color: #FFD700;
+}
+
+.team_container .function {
+    color: #F4F4F4;
+}
+
+.team_container .description {
+    font-weight: 400;
+    font-size: 14px;
+    color: #F4F4F4;
+    text-transform: initial;
+}
+
+.team_container .slider .slides li img {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.team_container .slider .slides li  {
+    background: #143556;
+}
+
+.team_container .slider .indicators .indicator-item.active {
+    background-color: #143556;
+}    
+
+
+
+
+/* Footer */
+.page-footer {
+    background: #1c1c1c;
+    color: #F4F4F4;
+}
+
+
+
+
+
+
+/* CONTACT FORM PAGE */
+.contact_container .title {
+    color: blue;
+}
