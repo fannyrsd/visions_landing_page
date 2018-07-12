@@ -196,6 +196,74 @@ canvas {
     width: 90px;
 }
 
+/* Popup */
+.modal {
+    border: solid #143556 5px;
+    height: 450px;
+}
+
+.modal .modal-header {
+    background-image: url("../img/popup/canvas.png");
+    height: 140px;
+    color: #f4f4f4;
+}
+
+.modal .modal_number {
+    display: inline-block;
+    font-size: 72px;
+    color: #FFD700;
+    margin: 0;
+}
+
+.modal .modal_title {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.modal .modal_picto {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+.modal .modal_picto_content {
+    width: 50px;
+    height: 50px;
+}
+
+.modal .modal_picto_container .img_text {
+    display: inline-block;
+    margin: 5%;
+}
+
+.modal .block {
+    display: block;
+    margin: 0;
+}
+
+#modal2 .modal_picto_content {
+    width: 40px;
+    height: 40px;
+}
+
+#modal2 .modal_picto_container .img_text {
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 0;
+}
+
+#modal3 .modal_picto_content {
+    height: 100px;
+    width: 100px;
+}
+
+#modal4 .modal_picto_content {
+    height: 100px;
+    width: 100px;
+}
+
+
 /* They trust us */
 .trust_container {
     position: relative;
@@ -336,9 +404,6 @@ canvas {
 .team_container .slider .indicators .indicator-item.active {
     background-color: #143556;
 }    
-
-
-
 
 /* Footer */
 .page-footer {
