@@ -40,6 +40,10 @@ nav {
     z-index: 100;
 }
 
+.brand-logo {
+    height: 100%;
+}
+
 .logo_visions {
     width: 10%;
     margin-right: 8em;
