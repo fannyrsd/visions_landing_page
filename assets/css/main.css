@@ -261,6 +261,7 @@ choose_container .choose_block img {
 .modal {
     border: solid #143556 5px;
     height: 450px;
+    width: 65%;
 }
 
 .modal .modal-header {
