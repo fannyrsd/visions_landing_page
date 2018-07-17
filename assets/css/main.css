@@ -446,10 +446,6 @@ choose_container .choose_block img {
     justify-content: center;
 }
 
-team_caption {
- 
-}   
-
 .cleandata_container img.cleandata {
     height: 150px;
     display: inline-block;
