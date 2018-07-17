@@ -36,13 +36,14 @@ MENU
 ******/
 nav {
     background: #FFD700;
-    /* position: fixed; */
+    position: fixed;
     z-index: 100;
 }
 
 .logo_visions {
     width: 10%;
     margin-right: 8em;
+    z-index: 110;
 }
 
 #nav-mobile a {
