@@ -363,17 +363,11 @@ choose_container .choose_block img {
 }
 
 .trust_container .arrow_slider_right{
-    position: absolute;
-    display: inline-block;
-    top : 40%;
-    right: 40px;
+    margin-right: 3%;
 }
 
 .trust_container .arrow_slider_left{
-    position: absolute;
-    display: inline-block;
-    top : 40%;
-    left: 40px;
+    margin-left: 3%;
 }
 
 /* CLEANDATA WORKSHOPS */
