@@ -261,6 +261,7 @@ choose_container .choose_block img {
 .modal {
     border: solid #143556 5px;
     height: 450px;
+    width: 65%;
 }
 
 .modal .modal-header {
@@ -454,6 +455,8 @@ choose_container .choose_block img {
     right: 10%;
 }
 
+
+
 /* Team and partners */
 
 .team_container .caption {
@@ -494,6 +497,8 @@ choose_container .choose_block img {
 .team_container .slider .indicators .indicator-item.active {
     background-color: #FAD749;
 }    
+
+
 
 /* Footer */
 .page-footer {
