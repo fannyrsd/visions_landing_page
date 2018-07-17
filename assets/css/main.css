@@ -170,6 +170,14 @@ choose_container .choose_block img {
     height: 200px;
 }
 
+.padlock {
+    height: 215px;
+}
+
+.choose_img {
+    width: 85%;
+}
+
 /* Privacy project management */
 .ppm_container {
     position: relative;
@@ -319,21 +327,32 @@ choose_container .choose_block img {
 
 /* They trust us */
 .trust_container {
+    display: flex;
     position: relative;
     background: #143556;
     color: #f4f4f4;
     height: 440px;
 }
 
+.trust_title {
+    position: absolute;
+}
+
+.trust_slider {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .trust_container .round_logo {
     position: relative;
-    display: inline-block;
+    display: flex;
     width: 200px;
     height: 200px;
     background: #f4f4f4;
     border-radius: 100%;
-    top: 15%;
-    margin-right: 50px;
+    margin-right: 4%;
 }
 
 .trust_container .logo_slider {
