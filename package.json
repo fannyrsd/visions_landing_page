@@ -1,0 +1,22 @@
+{
+  "name": "fannyjtm",
+  "version": "1.0.0",
+  "description": "swiper for slider",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fannyrsd/visions_landing_page.git"
+  },
+  "author": "Paul Lamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fannyrsd/visions_landing_page/issues"
+  },
+  "homepage": "https://github.com/fannyrsd/visions_landing_page#readme",
+  "dependencies": {
+    "swiper": "^4.3.3"
+  }
+}

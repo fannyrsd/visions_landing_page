@@ -348,22 +348,29 @@ choose_container .choose_block img {
 .trust_container .round_logo {
     position: relative;
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 200px;
     height: 200px;
     background: #f4f4f4;
     border-radius: 100%;
-    margin-right: 4%;
+    margin-right: 2%;
+    margin-left: 2%;
+    overflow: hidden;
+    display: none;
+}
+
+.active_logo {
+    display: block !important;
 }
 
 .trust_container .logo_slider {
-    position: absolute;
     width: 190px;
-    top: 25%;
-    left: 3%;
 }
 
 .trust_container .arrow_slider_right{
-    margin-right: 3%;
+    right: 0;
+    margin-left : 3%;
 }
 
 .trust_container .arrow_slider_left{
