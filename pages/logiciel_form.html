@@ -36,38 +36,25 @@
     </header>
 
     <h1 class="title">Get your PrivacyTech !</h1>
-    <p class="col s6">Fill out this form so we can arrange a <b>30 minute free call</b> to guide you in next steps !</p>       
+    <p class="col s6">Fill out this form and you will get a set up of your consent management interface !</p>       
     <div class="container">
         <div class="row">
-            <form action="#">
-                <p class="col s12 subtitle">How far are you in your privacy project / compliance ?</p>
-                <label class="col s12">
-                    <input class="input-field" name="group1" type="radio" />
-                    <span>Haven't started but getting more and more demands on the subject</span>
-                </label>
-                <label class="col s12">
-                    <input class="input-field" name="group1" type="radio" />
-                    <span>I've read some articles and I am quite concerned</span>
-                </label>
-                <label class="col s12">
-                    <input class="input-field" name="group1" type="radio"  />
-                    <span>We've started mapping our data and processes for the processing ledger</span>
-                </label>
-                <label class="col s12">
-                    <input class="input-field" name="group1" type="radio" />
-                    <span>We have finished our mapping and handled basic compliance but we want to go further to earn users' trust !</span>
-                </label>
+            <form action="mailto:matthias@visionspol.eu" method="post" enctype="text/plain">
                 <div class="input-field col s12">
-                    <input id="website" type="text" class="validate">
-                    <label for="website">Do you have a website ?</label>
+                    <input id="purpose" type="text" class="validate">
+                    <label for="purpose">Purpose : what do you do with the data ? Advertising, stats, Matching...</label>
                 </div>
                 <div class="input-field col s12">
-                    <input id="details" type="text" class="validate">
-                    <label for="details">Want to share any other specific details? Have any specific complex problems ?</label>
+                    <input id="description" type="text" class="validate">
+                    <label for="description">Description : detail the purpose to notify your users</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="perso_data" type="text" class="validate">
+                    <label for="perso_data">What personnal data do you require consent on for this purpose (separate them by coma)?</label>
                 </div>
                 <div class="input-field col s12">
                     <input id="contact" type="text" class="validate">
-                    <label for="contact">How can we contact you ?</label>
+                    <label for="contact">How do we contact you to send the interface ?</label>
                 </div>
                 <input type="submit" class="btn">
             </form>
