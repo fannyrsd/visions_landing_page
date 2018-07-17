@@ -524,3 +524,20 @@ input[type=text]:not(.browser-default):focus:not([readonly]){
 input[type=text]:not(.browser-default):focus:not([readonly])+label{
     color: #143556;
 }
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+    background-color: #143556;
+}
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+    background-color: #143556;
+}
+
+[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+    border: 2px solid #143556;
+}
+
+input.valid[type=text]:not(.browser-default) {
+    border-bottom: 1px solid #143556;
+    box-shadow: 0 1px 0 0 #143556;
+}
