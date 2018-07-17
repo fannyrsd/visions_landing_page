@@ -483,7 +483,13 @@ choose_container .choose_block img {
     color: #F4F4F4;
 }
 
-
+/********
+***************
+*************************
+GENERAL FORMS
+*************************
+***************
+*********/
 
 /********
 ***************
@@ -495,4 +501,26 @@ CONTACT FORM
 
 .contact_form p {
     margin-left: 40px;
+}
+
+.contact_form nav {
+    position: initial;
+}
+
+.contact_form .btn {
+    position: initial;
+}
+
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    border-bottom: 1px solid #143556;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]){
+    border-bottom: 1px solid #143556;
+    box-shadow: 0 1px 0 0 #143556;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly])+label{
+    color: #143556;
 }

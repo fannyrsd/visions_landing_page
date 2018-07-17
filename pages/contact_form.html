@@ -40,44 +40,36 @@
     <div class="container">
         <div class="row">
             <form action="#">
-                <p>How far are you in your privacy project / compliance ?</p>
-                    <p>
-                        <label>
-                            <input name="group1" type="radio" />
-                            <span>Haven't started but getting more and more demands on the subject</span>
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            <input name="group1" type="radio" />
-                            <span>I've read some articles and I am quite concerned</span>
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            <input name="group1" type="radio"  />
-                            <span>We've started mapping our data and processes for the processing ledger</span>
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            <input name="group1" type="radio" />
-                            <span>We have finished our mapping and handled basic compliance but we want to go further to earn users' trust !</span>
-                        </label>
-                    </p>
-                    <p>
-                        <label for="website">Do you have a website ?</label>
-                        <input type="text" placeholder="www.mywebsite.com" id="website">
-                    </p>
-                    <p>
-                        <label for="details">Want to share any other specific details? Have any specific complex problems ?</label>
-                        <input type="text" placeholder="Your text here" id="details">
-                    </p>
-                    <p>
-                        <label for="contact">How can we contact you ?</label>
-                        <input type="text" placeholder="e-mail / tel" id="contact">
-                    </p>
-                    <input type="submit" class="btn">
+                <p class="col s12 subtitle">How far are you in your privacy project / compliance ?</p>
+                <label class="col s12">
+                    <input class="input-field" name="group1" type="radio" />
+                    <span>Haven't started but getting more and more demands on the subject</span>
+                </label>
+                <label class="col s12">
+                    <input class="input-field" name="group1" type="radio" />
+                    <span>I've read some articles and I am quite concerned</span>
+                </label>
+                <label class="col s12">
+                    <input class="input-field" name="group1" type="radio"  />
+                    <span>We've started mapping our data and processes for the processing ledger</span>
+                </label>
+                <label class="col s12">
+                    <input class="input-field" name="group1" type="radio" />
+                    <span>We have finished our mapping and handled basic compliance but we want to go further to earn users' trust !</span>
+                </label>
+                <div class="input-field col s12">
+                    <input id="website" type="text" class="validate">
+                    <label for="website">Do you have a website ?</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="details" type="text" class="validate">
+                    <label for="details">Want to share any other specific details? Have any specific complex problems ?</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="contact" type="text" class="validate">
+                    <label for="contact">How can we contact you ?</label>
+                </div>
+                <input type="submit" class="btn">
             </form>
                             
         </div>
