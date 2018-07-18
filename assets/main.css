@@ -144,6 +144,13 @@ MENU
   color: #143556;
   font-weight: 600; }
 
+.right_header {
+  float: right;
+  margin-right: 5%; }
+
+.left_header {
+  margin-left: 5%; }
+
 /* Footer */
 .page-footer {
   background: #1c1c1c !important;
