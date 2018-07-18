@@ -159,17 +159,26 @@ MENU
 /******
 CHOOSE VISIONS 
 ******/
+.choose_container .title {
+  margin-bottom: 3%; }
+
 .choose_container .choose_block {
   display: inline-block; }
 
 .choose_container .choose_block img {
-  height: 200px; }
+  height: 200px;
+  width: 90% !important; }
 
 .padlock {
   height: 215px; }
 
 .choose_img {
-  width: 85%; }
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.choose_p {
+  margin-top: 2rem; }
 
 /******
 SLOGAN 
