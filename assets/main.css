@@ -273,7 +273,7 @@ canvas {
   height: 520px; }
 
 .cleandata_container .cleandata_btn {
-  margin-top: 3%; }
+  margin-top: 2%; }
 
 .cleandata_container .text {
   margin-left: 70px;
@@ -619,5 +619,10 @@ body {
 .btn:hover {
   background: #143556 !important;
   color: #FFD700 !important; }
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 1.4; }
 
 /*# sourceMappingURL=main.css.map */
