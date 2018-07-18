@@ -495,6 +495,9 @@ canvas {
   width: 200px;
   border-radius: 100%; }
 
+.team_container .slider .slides li img.virtual_conf {
+  height: 100px; }
+
 .team_container .slider .slides li {
   background: #143556;
   display: flex;
@@ -578,5 +581,3 @@ body {
 .btn:hover {
   background: #143556;
   color: #FFD700; }
-
-/*# sourceMappingURL=main.css.map */
