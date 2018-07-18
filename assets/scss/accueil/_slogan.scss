@@ -85,11 +85,12 @@ canvas {
 
 .slogan_container .btn {
     bottom: 100px;
+    position: absolute;
 }
 
 .slogan_container .scroll_indicator {
     position: absolute;
-    bottom: 60px;
+    transform: translateY(-100%);
     left: calc(50% - 1.5em);
     width: 3em;
     animation: jump_arrow infinite ease-in-out 1s;

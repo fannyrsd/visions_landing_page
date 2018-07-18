@@ -27,17 +27,17 @@ body {
 
 .btn {
     position: absolute;
-    z-index: 50;
+    z-index: 3001 !important;
     width: 342px;
-    border-radius: 20em;
-    background: #FFD700;
-    color: #143556;
+    border-radius: 20em !important;
+    background: #FFD700 !important;
+    color: #143556 !important;
     font-weight: 600;
     text-transform: uppercase;
-    right: 40px;
+    right: 40px !important;
 }
 
 .btn:hover {
-    background: #143556;
-    color: #FFD700;
+    background: #143556 !important;
+    color: #FFD700 !important;
 }

@@ -249,11 +249,12 @@ canvas {
     opacity: 1;
     border: none; } }
 .slogan_container .btn {
-  bottom: 100px; }
+  bottom: 100px;
+  position: absolute; }
 
 .slogan_container .scroll_indicator {
   position: absolute;
-  bottom: 60px;
+  transform: translateY(-100%);
   left: calc(50% - 1.5em);
   width: 3em;
   animation: jump_arrow infinite ease-in-out 1s;
@@ -496,6 +497,10 @@ canvas {
   left: 27%;
   width: 90px; }
 
+.ppm_wrapper {
+  width: 90%;
+  margin: 0 auto; }
+
 /* Team and partners */
 .team_container .caption {
   position: relative !important;
@@ -594,17 +599,17 @@ body {
 
 .btn {
   position: absolute;
-  z-index: 50;
+  z-index: 3001 !important;
   width: 342px;
-  border-radius: 20em;
-  background: #FFD700;
-  color: #143556;
+  border-radius: 20em !important;
+  background: #FFD700 !important;
+  color: #143556 !important;
   font-weight: 600;
   text-transform: uppercase;
-  right: 40px; }
+  right: 40px !important; }
 
 .btn:hover {
-  background: #143556;
-  color: #FFD700; }
+  background: #143556 !important;
+  color: #FFD700 !important; }
 
 /*# sourceMappingURL=main.css.map */
