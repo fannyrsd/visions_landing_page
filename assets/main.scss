@@ -1,0 +1,43 @@
+@import 'scss/_reset.scss';
+@import 'scss/header-footer/_header.scss';
+@import 'scss/header-footer/_footer.scss';
+@import 'scss/accueil/_chooseVisions.scss';
+@import 'scss/accueil/_slogan.scss';
+@import 'scss/accueil/_cleandataWorkshops.scss';
+@import 'scss/accueil/_popUp.scss';
+@import 'scss/accueil/_privacyProjectManagement.scss';
+@import 'scss/accueil/_teamAndPartners.scss';
+@import 'scss/contact/_contact.scss';
+
+/******
+GENERAL 
+******/
+body {
+    background: #F4F4F4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 36px;
+    margin-left: 40px;
+}
+
+.btn {
+    position: absolute;
+    z-index: 50;
+    width: 342px;
+    border-radius: 20em;
+    background: #FFD700;
+    color: #143556;
+    font-weight: 600;
+    text-transform: uppercase;
+    right: 40px;
+}
+
+.btn:hover {
+    background: #143556;
+    color: #FFD700;
+}

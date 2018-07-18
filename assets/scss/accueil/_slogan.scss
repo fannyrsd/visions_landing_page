@@ -1,0 +1,98 @@
+/******
+SLOGAN 
+******/
+
+/* Canvas */
+canvas {
+    position: relative;
+    z-index: 1;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-color: #143556;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+/* Text */
+.slogan_container {
+    position: relative;
+}
+
+.slogan_container .slogan {
+    position: absolute;
+    top: 40%;
+    text-transform: uppercase;
+    color: #f4f4f4;
+    font-size: 64px;
+}
+
+.slogan_container .slogan b {
+    font-style: normal;
+    font-weight: 500;
+    color: #FFD700;
+}
+
+.css-typing h1 {
+    white-space: nowrap;
+    overflow: hidden;
+}
+  
+.css-typing h1.slogan1 {
+    opacity: 0;
+    animation: type 3s steps(40, end);
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+.css-typing h1.slogan2 {
+    opacity: 0;
+    animation: type 3s steps(40, end);
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    top: 50%;
+}
+  
+@keyframes type {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid yellow;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+}
+
+.slogan_container .btn {
+    bottom: 100px;
+}
+
+.slogan_container .scroll_indicator {
+    position: absolute;
+    bottom: 60px;
+    left: 45%;
+    width: 3em;
+    display: inline-block;
+    animation: jump_arrow infinite ease-in-out 1s;
+    will-change: bottom;
+}
+
+@keyframes jump_arrow{
+    0% {
+        bottom: 60px;
+    }
+    50% {
+        bottom: 65px;
+    }
+    100% {
+        bottom: 60px;
+    }   
+}

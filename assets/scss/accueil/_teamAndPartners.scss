@@ -1,0 +1,40 @@
+/* Team and partners */
+
+.team_container .caption {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin-left: 5%;
+}
+
+.team_container .name {
+    color: #FFD700;
+}
+
+.team_container .function {
+    color: #F4F4F4;
+}
+
+.team_container .description {
+    font-weight: 400;
+    font-size: 14px;
+    color: #F4F4F4;
+    text-transform: initial;
+}
+
+.team_container .slider .slides li img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.team_container .slider .slides li  {
+    background: #143556;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team_container .slider .indicators .indicator-item.active {
+    background-color: #FAD749;
+}    

@@ -1,0 +1,27 @@
+/******
+MENU
+******/
+.nav {
+    background-color: #FFD700 !important;
+    position: fixed;
+    z-index: 100;
+}
+
+.brand-logo {
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+}
+
+.logo_visions {
+    width: 100%;
+}
+
+#nav-mobile a {
+    color: #143556;
+    font-weight: 600;
+}
+
+// #nav-mobile li {
+   
+// }

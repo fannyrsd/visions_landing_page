@@ -1,0 +1,76 @@
+/* CLEANDATA WORKSHOPS */
+.cleandata_container {
+    position: relative;
+    height: 520px;
+}
+
+.cleandata_container .text {
+    margin-left: 70px;
+    margin-top: 5%;
+}
+
+.cleandata_container .round_logo_expert {
+    position: relative;
+    display: inline-block;
+    margin-left: 70px;
+    width: 150px;
+    height: 150px;
+    border: solid #00A359 3px;
+    border-radius: 100%;
+}
+
+.cleandata_container img.logo_expert {
+    width: 97px;
+    position: absolute;
+    left: 17%;
+}
+
+.cleandata_container img.logo_expert.cisco {
+    top: 30%;
+}
+
+.cleandata_container img.logo_expert.qwant {
+    top: 10%;
+}
+
+.cleandata_container img.logo_expert.cnil {
+    top: 30%;
+}
+
+.cleandata_container img.logo_expert.microsoft {
+    top: 20%;
+}
+
+.cleandata_container img.logo_expert.ovh {
+    top: 25%;
+}
+
+.team_container {
+    position: relative;
+    display: flex;
+    color: #f4f4f4;
+    background: #143556;
+    height: 440px;
+}
+
+.team_title {
+    position: absolute;
+    z-index: 3;
+}
+
+.team_slider {
+    height: 440px;
+}
+
+.team_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cleandata_container img.cleandata {
+    height: 150px;
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+}

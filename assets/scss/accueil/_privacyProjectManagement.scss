@@ -1,0 +1,78 @@
+/* Privacy project management */
+.ppm_container {
+    position: relative;
+}
+
+.ppm_container .ppm_block {
+    display: inline-block;
+    width: 200px;
+    height: 272px;
+    position: relative;
+
+}
+
+.ppm_container .top {
+    margin-right: 300px;
+}
+
+.ppm_container .bottom {
+    margin-left: 300px;
+}
+
+
+.ppm_container .ppm_block .round {
+    display: inline-block;
+    background: #143556;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 50px grey;
+    color: #FFD700;
+}
+
+.ppm_container .ppm_block .round:hover {
+    cursor: pointer;
+    background: #FFD700;
+    color: #143556;
+}
+
+.ppm_container .ppm_block .ppm_box_title {
+    font-weight: 500;
+    font-size: 24px;    
+}
+
+.ppm_container .ppm_line {
+    height: 1.5px;
+    width: 300px;
+    background: #143556;
+    opacity: 0.5;
+    z-index: -20;
+}
+
+.ppm_container .ppm_line.line1 {
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: rotate(40deg);
+}
+
+.ppm_container .ppm_line.line2 {
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: rotate(40deg);
+}
+
+.ppm_container .ppm_line.line3 {
+    position: absolute;
+    top: -30%;
+    left: 30%;
+    transform: rotate(-60deg);
+}
+
+.ppm_container .ppm_picto {
+    position: absolute;
+    top: 28%;
+    left: 27%;
+    width: 90px;
+}
