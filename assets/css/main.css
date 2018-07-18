@@ -364,6 +364,10 @@ choose_container .choose_block img {
     display: flex !important;
 }
 
+.kawaa {
+    width: 60% !important;
+}
+
 .trust_container .logo_slider {
     width: 190px;
 }
