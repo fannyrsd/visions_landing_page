@@ -21,12 +21,23 @@ canvas {
     position: relative;
 }
 
+.slogan1 {
+    left: 0 !important;
+    width: 100% !important;
+    top: 20%;
+}
+
+.slogan2 {
+    left: 0 !important;
+    width: 100% !important;
+    top: 30% !important;
+}
+
 .slogan_container .slogan {
     position: absolute;
-    top: 40%;
     text-transform: uppercase;
     color: #f4f4f4;
-    font-size: 64px;
+    font-size: 3.4rem;
 }
 
 .slogan_container .slogan b {
