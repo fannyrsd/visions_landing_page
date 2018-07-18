@@ -38,6 +38,7 @@ canvas {
     text-transform: uppercase;
     color: #f4f4f4;
     font-size: 3.4rem;
+    z-index: 3000;
 }
 
 .slogan_container .slogan b {
@@ -89,9 +90,8 @@ canvas {
 .slogan_container .scroll_indicator {
     position: absolute;
     bottom: 60px;
-    left: 45%;
+    left: calc(50% - 1.5em);
     width: 3em;
-    display: inline-block;
     animation: jump_arrow infinite ease-in-out 1s;
     will-change: bottom;
 }
