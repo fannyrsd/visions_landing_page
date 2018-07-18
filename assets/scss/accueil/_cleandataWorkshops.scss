@@ -4,15 +4,26 @@
     height: 520px;
 }
 
+.cleandata_container .cleandata_btn {
+    margin-top: 3%;
+}
+
 .cleandata_container .text {
     margin-left: 70px;
     margin-top: 5%;
 }
 
+.cleandata_container .expert_logo {
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cleandata_container .round_logo_expert {
     position: relative;
-    display: inline-block;
-    margin-left: 70px;
+    margin-left: 3%;
+    margin-right: 3%;
     width: 150px;
     height: 150px;
     border: solid #00A359 3px;
@@ -70,7 +81,6 @@
 
 .cleandata_container img.cleandata {
     height: 150px;
-    display: inline-block;
     position: absolute;
-    right: 10%;
+    left: 66%;
 }
