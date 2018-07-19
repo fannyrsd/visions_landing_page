@@ -625,4 +625,7 @@ p {
   margin-bottom: 1em;
   line-height: 1.4; }
 
+.is_transform {
+  transform: translateY(500px); }
+
 /*# sourceMappingURL=main.css.map */
