@@ -1,0 +1,55 @@
+/* They trust us */
+.trust_container {
+    display: flex;
+    position: relative;
+    background: #143556;
+    color: #f4f4f4;
+    height: 440px;
+}
+
+.trust_title {
+    position: absolute;
+}
+
+.trust_slider {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.trust_container .round_logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px !important;
+    height: 200px;
+    background: #f4f4f4;
+    border-radius: 100%;
+    margin-right: 2%;
+    margin-left: 2%;
+    overflow: hidden;
+}
+
+.active_logo {
+    display: flex !important;
+}
+
+.kawaa {
+    width: 60% !important;
+}
+
+.trust_container .logo_slider {
+    width: 190px;
+}
+
+.trust_container .arrow_slider_right{
+    right: 0;
+    margin-left : 3%;
+    margin-right: 3%;
+}
+
+.trust_container .arrow_slider_left{
+    margin-left: 3%;
+}
