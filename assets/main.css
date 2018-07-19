@@ -342,10 +342,10 @@ canvas {
 .modal {
   border: solid #143556 5px;
   height: 450px;
-  width: 65%; }
+  width: 70% !important; }
 
 .modal .modal-header {
-  background-image: url("../img/popup/canvas.png");
+  background-image: url("../assets/img/popup/canvas.png");
   height: 140px;
   color: #f4f4f4; }
 
@@ -368,6 +368,9 @@ canvas {
 .modal .modal_picto_content {
   width: 50px;
   height: 50px; }
+
+.modal .modal_picto_content.arrow_modal {
+  margin-bottom: 20px; }
 
 .modal .modal_picto_container .img_text {
   display: inline-block;
@@ -555,37 +558,34 @@ CONTACT FORM
 .form p {
   margin-left: 40px; }
 
-.form nav {
-  position: initial; }
-
 .form .btn {
   position: initial !important; }
 
 .form .title {
-  margin-top: 20px; }
+  margin-top: 30px; }
 
 input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
-  border-bottom: 1px solid #143556; }
+  border-bottom: 1px solid #143556 !important; }
 
 input[type=text]:not(.browser-default):focus:not([readonly]) {
-  border-bottom: 1px solid #143556;
-  box-shadow: 0 1px 0 0 #143556; }
+  border-bottom: 1px solid #143556 !important;
+  box-shadow: 0 1px 0 0 #143556 !important; }
 
 input[type=text]:not(.browser-default):focus:not([readonly]) + label {
-  color: #143556; }
+  color: #143556 !important; }
 
 [type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
-  background-color: #143556; }
+  background-color: #143556 !important; }
 
 [type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:after {
-  background-color: #143556; }
+  background-color: #143556 !important; }
 
 [type="radio"]:checked + span:after, [type="radio"].with-gap:checked + span:before, [type="radio"].with-gap:checked + span:after {
-  border: 2px solid #143556; }
+  border: 2px solid #143556 !important; }
 
 input.valid[type=text]:not(.browser-default) {
-  border-bottom: 1px solid #143556;
-  box-shadow: 0 1px 0 0 #143556; }
+  border-bottom: 1px solid #143556 !important;
+  box-shadow: 0 1px 0 0 #143556 !important; }
 
 /******
 GENERAL 
@@ -623,5 +623,3 @@ p {
 
 .is_transform {
   transform: translateY(500px); }
-
-/*# sourceMappingURL=main.css.map */
