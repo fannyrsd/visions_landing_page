@@ -1,11 +1,20 @@
 const ppm = document.querySelector('.ppm_header')
+const ttu = document.querySelector('.ttu_header')
+const tap = document.querySelector('.tap_header')
+const cdw = document.querySelector('.cdw_header')
 
-// ppm.addEventListener('click', () =>  {
-//     console.log('oui');
+ppm.addEventListener('click', () =>  {
+    TweenLite.to(window, 2, {scrollTo:"#ppm"});
+})
 
-//     window.scroll(0,100)
-// })
+ttu.addEventListener('click', () => {
+    TweenLite.to(window, 2, {scrollTo:"#ttu"});
+})
 
-// var  intElemScrollTop = window.scrollTop;
+tap.addEventListener('click', () => {
+    TweenLite.to(window, 2, {scrollTo:"#tap"});
+})
 
-//     console.log(intElemScrollTop);
+cdw.addEventListener('click', () => {
+    TweenLite.to(window, 2, {scrollTo:"#cdw"});
+})

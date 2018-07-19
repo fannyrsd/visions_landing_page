@@ -11,8 +11,11 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900" rel="stylesheet">
     <!-- Compiled and minified CSS for Materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <!-- Slider -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+    <!-- Greensock-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/CSSPlugin.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/ScrollToPlugin.min.js"></script>
+
 
 
 </head>
@@ -26,10 +29,10 @@
                   <img src="assets/img/logos/visions.svg" alt="logo-visions" class="logo_visions">
               </a>
               <ul id="nav-mobile">
-                <button onclick="scroll(0, 100);" class="left_header ppm_header"><a href="#">Privacy project management</a></button>
-                <li class="left_header"><a href="#">They trust us</a></li>
-                <li class="right_header"><a href="#">Team and partners</a></li>
-                <li class="right_header"><a href="#">CleanData Workshops</a></li>
+                <li onclick="scroll(0, 100);" class="left_header ppm_header"><a href="#">Privacy project management</a></li>
+                <li class="left_header ttu_header"><a href="#">They trust us</a></li>
+                <li class="right_header tap_header"><a href="#">Team and partners</a></li>
+                <li class="right_header cdw_header"><a href="#">CleanData Workshops</a></li>
               </ul>
             </div>
         </nav>
@@ -71,7 +74,7 @@
     </div>
 
     <!-- Privacy project management -->
-    <div class="ppm_container">
+    <div class="ppm_container" id="ppm">
         <h2 class="title">Privacy project management</h2>
         <div class="ppm_wrapper center">   
             <div class="row">                    
@@ -206,7 +209,7 @@
     </div>
 
     <!-- They trust us -->
-    <div class="trust_container swiper-container">
+    <div class="trust_container swiper-container" id="ttu">
         <h2 class="title trust_title">They trust us</h2>
         <img class="arrow_slider_left swiper-button-prev" src="assets/img/picto/left_arrow.svg" alt="left-arrow">
 
@@ -247,7 +250,7 @@
         </div>
     
     <!-- CleanData Workshops -->
-    <div class="cleandata_container">
+    <div class="cleandata_container" id="cdw">
         <h2 class="title">CleanData Workshops</h2>
         <img class="cleandata" src="assets/img/logos/cleandata.svg" alt="cleandata">
         <div class="text col s8">
@@ -282,7 +285,7 @@
 
          
      <!-- Team and partners -->
-     <div class="team_container">
+     <div class="team_container" id="tap">
         <h2 class="title team_title">team and partners</h2>
         <div class="slider team_slider">
             <ul class="slides team_items">
