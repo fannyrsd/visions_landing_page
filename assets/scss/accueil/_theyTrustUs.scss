@@ -1,10 +1,16 @@
+
 /* They trust us */
 .trust_container {
     display: flex;
     position: relative;
     background: #143556;
     color: #f4f4f4;
-    height: 440px;
+    height: 400px;
+}
+
+.trust_container .caption {
+    margin-top: 30px;
+
 }
 
 .trust_title {
@@ -20,15 +26,13 @@
 
 .trust_container .round_logo {
     position: relative;
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
-    width: 200px !important;
-    height: 200px;
+    width: 150px !important;
+    height: 150px;
     background: #f4f4f4;
     border-radius: 100%;
-    margin-right: 2%;
-    margin-left: 2%;
     overflow: hidden;
 }
 
@@ -44,12 +48,12 @@
     width: 190px;
 }
 
-.trust_container .arrow_slider_right{
-    right: 0;
-    margin-left : 3%;
-    margin-right: 3%;
+.trust_container .indicators {
+    bottom: 15% !important;
+    z-index: 300;
 }
 
-.trust_container .arrow_slider_left{
-    margin-left: 3%;
-}
+.trust_container .slider .indicators .indicator-item.active {
+    background-color: #FAD749;
+}    
+
