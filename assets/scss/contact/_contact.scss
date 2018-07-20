@@ -18,28 +18,44 @@ CONTACT FORM
     margin-top: 30px;
 }
 
-input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+input:not([type]),
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea {
     border-bottom: 1px solid #143556 !important;
 }
 
-input[type=text]:not(.browser-default):focus:not([readonly]){
+input[type=text]:not(.browser-default):focus:not([readonly]) {
     border-bottom: 1px solid #143556 !important;
     box-shadow: 0 1px 0 0 #143556 !important;
 }
 
-input[type=text]:not(.browser-default):focus:not([readonly])+label{
+input[type=text]:not(.browser-default):focus:not([readonly])+label {
     color: #143556 !important;
 }
 
-[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+[type="radio"]:checked+span:after,
+[type="radio"].with-gap:checked+span:after {
     background-color: #143556 !important;
 }
 
-[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {
+[type="radio"]:checked+span:after,
+[type="radio"].with-gap:checked+span:after {
     background-color: #143556 !important;
 }
 
-[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {
+[type="radio"]:checked+span:after,
+[type="radio"].with-gap:checked+span:before,
+[type="radio"].with-gap:checked+span:after {
     border: 2px solid #143556 !important;
 }
 

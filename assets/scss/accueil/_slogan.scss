@@ -3,6 +3,7 @@ SLOGAN
 ******/
 
 /* Canvas */
+
 canvas {
     position: relative;
     z-index: 1;
@@ -17,6 +18,7 @@ canvas {
 }
 
 /* Text */
+
 .slogan_container {
     position: relative;
 }
@@ -51,7 +53,7 @@ canvas {
     white-space: nowrap;
     overflow: hidden;
 }
-  
+
 .css-typing h1.slogan1 {
     opacity: 0;
     animation: type 3s steps(40, end);
@@ -66,20 +68,20 @@ canvas {
     animation-fill-mode: forwards;
     top: 50%;
 }
-  
+
 @keyframes type {
     0% {
-      width: 0;
+        width: 0;
     }
     1% {
-      opacity: 1;
+        opacity: 1;
     }
     99.9% {
-      border-right: .15em solid yellow;
+        border-right: .15em solid yellow;
     }
     100% {
-      opacity: 1;
-      border: none;
+        opacity: 1;
+        border: none;
     }
 }
 
@@ -97,7 +99,7 @@ canvas {
     will-change: bottom;
 }
 
-@keyframes jump_arrow{
+@keyframes jump_arrow {
     0% {
         bottom: 60px;
     }
@@ -106,5 +108,5 @@ canvas {
     }
     100% {
         bottom: 60px;
-    }   
+    }
 }

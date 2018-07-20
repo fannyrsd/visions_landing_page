@@ -10,10 +10,10 @@
 @import 'scss/contact/_contact.scss';
 @import 'scss/accueil/_theyTrustUs.scss';
 @import 'scss/accueil/_responsiveAccueil.scss';
-
 /******
 GENERAL 
 ******/
+
 body {
     background: #F4F4F4;
     font-family: 'Montserrat', sans-serif;
@@ -54,12 +54,6 @@ p {
     transform: translateY(500px);
 }
 
-
-
-
-
-
-
 .slider {
     position: relative;
     width: 100%;
@@ -70,7 +64,7 @@ p {
     margin: 0;
 }
 
-.slider .slides li{
+.slider .slides li {
     opacity: 1;
     position: absolute;
     top: 0;
