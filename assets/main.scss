@@ -52,3 +52,33 @@ p {
 .is_transform {
     transform: translateY(500px);
 }
+
+
+
+
+
+
+
+.slider {
+    position: relative;
+    width: 100%;
+}
+
+.slides {
+    background-color: #9e9e9e;
+    margin: 0;
+}
+
+.slider .slides li{
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: inherit;
+    overflow: hidden;
+}
+
+.slider .slides li.active {
+    z-index: 2;
+}

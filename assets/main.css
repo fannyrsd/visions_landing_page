@@ -586,15 +586,25 @@ input.valid[type=text]:not(.browser-default) {
 .active_logo {
   display: flex !important; }
 
-.trust_container .logo_slider {
-  width: 190px !important; }
-
 .trust_container .indicators {
   bottom: 7% !important;
   z-index: 300; }
 
 .trust_container .slider .indicators .indicator-item.active {
   background-color: #FAD749; }
+
+.img1 {
+  height: 90px !important; }
+
+.img2 {
+  height: 100%;
+  transform: scale(0.6, 0.6); }
+
+.img3 {
+  height: 38px !important; }
+
+.img4 {
+  height: 67px !important; }
 
 /******
 GENERAL 
@@ -632,5 +642,25 @@ p {
 
 .is_transform {
   transform: translateY(500px); }
+
+.slider {
+  position: relative;
+  width: 100%; }
+
+.slides {
+  background-color: #9e9e9e;
+  margin: 0; }
+
+.slider .slides li {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: inherit;
+  overflow: hidden; }
+
+.slider .slides li.active {
+  z-index: 2; }
 
 /*# sourceMappingURL=main.css.map */

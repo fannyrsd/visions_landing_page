@@ -51,10 +51,6 @@
     display: flex !important;
 }
 
-.trust_container .logo_slider {
-    width: 190px !important;
-}
-
 .trust_container .indicators {
     bottom: 7% !important;
     z-index: 300;
@@ -64,3 +60,19 @@
     background-color: #FAD749;
 }    
 
+.img1 {
+    height: 90px !important;
+}
+
+.img2 {
+    height: 100%;
+    transform: scale(0.6, 0.6);
+}
+
+.img3 {
+    height: 38px !important;
+}
+
+.img4 {
+    height: 67px !important;
+}
