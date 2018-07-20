@@ -597,7 +597,7 @@ input.valid[type=text]:not(.browser-default) {
   height: 90px !important; }
 
 .img2 {
-  height: 100%;
+  height: 220px !important;
   transform: scale(0.6, 0.6); }
 
 .img3 {
@@ -605,6 +605,21 @@ input.valid[type=text]:not(.browser-default) {
 
 .img4 {
   height: 67px !important; }
+
+.img5 {
+  height: 40px !important; }
+
+.img6 {
+  height: 40px !important; }
+
+.img7 {
+  height: 65px !important; }
+
+.img9 {
+  transform: scale(0.6, 0.6); }
+
+.img10 {
+  height: 77px !important; }
 
 /******
 GENERAL 
@@ -662,5 +677,3 @@ p {
 
 .slider .slides li.active {
   z-index: 2; }
-
-/*# sourceMappingURL=main.css.map */
