@@ -57,7 +57,6 @@ input, button, textarea, select {
   border-radius: 0;
   -webkit-padding-start: 0;
   align-items: flex-start;
-  text-index: 0;
   border: none;
   outline: none;
   background: none;
@@ -597,7 +596,7 @@ input.valid[type=text]:not(.browser-default) {
   height: 90px !important; }
 
 .img2 {
-  height: 100%;
+  height: 220px !important;
   transform: scale(0.6, 0.6); }
 
 .img3 {
@@ -605,6 +604,21 @@ input.valid[type=text]:not(.browser-default) {
 
 .img4 {
   height: 67px !important; }
+
+.img5 {
+  height: 40px !important; }
+
+.img6 {
+  height: 40px !important; }
+
+.img7 {
+  height: 65px !important; }
+
+.img9 {
+  transform: scale(0.6, 0.6); }
+
+.img10 {
+  height: 77px !important; }
 
 @media (max-width: 1150px) {
   .left_header {
