@@ -3,7 +3,7 @@ const ttu = document.querySelector('.ttu_header')
 const tap = document.querySelector('.tap_header')
 const cdw = document.querySelector('.cdw_header')
 
-ppm.addEventListener('click', () =>  {
+ppm.addEventListener('click', () => {
     TweenLite.to(window, 2, {scrollTo:"#ppm"});
 })
 
