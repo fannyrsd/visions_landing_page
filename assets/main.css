@@ -356,6 +356,9 @@ canvas {
   color: #FFD700;
   margin: 0; }
 
+.modal_picto_container {
+  transform: translateY(-30px); }
+
 .modal .modal_title {
   font-size: 48px;
   font-weight: 500; }
