@@ -2,12 +2,13 @@
 
 .modal {
     border: solid #143556 5px;
-    height: 450px;
+    height: 600px;
     width: 70% !important;
+    max-height: 78% !important;
 }
 
 .modal .modal-header {
-    background-image: url("../assets/img/popup/canvas.png");
+    background-image: url("assets/img/popup/canvas.png");
     height: 140px;
     color: #f4f4f4;
 }
@@ -48,6 +49,7 @@
 .modal .block {
     display: block;
     margin: 0;
+    margin-top: 10%;
 }
 
 #modal2 .modal_picto_content {
