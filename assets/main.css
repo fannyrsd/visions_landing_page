@@ -604,10 +604,6 @@ input.valid[type=text]:not(.browser-default) {
 .active_logo {
   display: flex !important; }
 
-.trust_container .indicators {
-  bottom: 7% !important;
-  z-index: 300; }
-
 .trust_container .slider .indicators .indicator-item.active {
   background-color: #FAD749; }
 
@@ -701,5 +697,8 @@ p {
 
 .slider .slides li.active {
   z-index: 2; }
+
+.indicators {
+  padding: 1% !important; }
 
 /*# sourceMappingURL=main.css.map */
