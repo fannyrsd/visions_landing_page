@@ -49,38 +49,48 @@
         <b>30 minute free call</b> to guide you in next steps !</p>
     <div class="container">
         <div class="row">
-            <form action="mailto:matthias@visionspol.eu" method="post" enctype="text/plain">
+
+                <form action="https://formspree.io/your@email.com"
+                method="POST">
+              <input type="text" name="name">
+              <input type="email" name="_replyto">
+              <input type="submit" value="Send">matthias@visionspol.eu
+          </form>
+
+
+            <form action="https://formspree.io/p.plamy6@gmail.com" method="post" enctype="text/plain">
                 <p class="col s12 subtitle">How far are you in your privacy project / compliance ?</p>
                 <label class="col s12">
-                    <input class="input-field" name="group1" type="radio" />
+                    <input class="input-field" name="name" type="radio" />
                     <span>Haven't started but getting more and more demands on the subject</span>
                 </label>
                 <label class="col s12">
-                    <input class="input-field" name="group1" type="radio" />
+                    <input class="input-field" name="name" type="radio" />
                     <span>I've read some articles and I am quite concerned</span>
                 </label>
                 <label class="col s12">
-                    <input class="input-field" name="group1" type="radio" />
+                    <input class="input-field" name="name" type="radio" />
                     <span>We've started mapping our data and processes for the processing ledger</span>
                 </label>
                 <label class="col s12">
-                    <input class="input-field" name="group1" type="radio" />
+                    <input class="input-field" name="name" type="radio" />
                     <span>We have finished our mapping and handled basic compliance but we want to go further to earn users' trust
-                        !</span>
+                        !
+                    </span>
                 </label>
                 <div class="input-field col s12">
-                    <input id="website" type="text" class="validate">
+                    <input id="website" type="text" class="validate" name="_replyto">
                     <label for="website">Do you have a website ?</label>
                 </div>
                 <div class="input-field col s12">
-                    <input id="details" type="text" class="validate">
+                    <input id="details" type="text" class="validate" name="_replyto">
                     <label for="details">Want to share any other specific details? Have any specific complex problems ?</label>
                 </div>
                 <div class="input-field col s12">
-                    <input id="contact" type="text" class="validate">
+                    <input id="contact" type="text" class="validate" name="_replyto">
                     <label for="contact">How can we contact you ?</label>
                 </div>
-                <button type="submit" class="btn">Submit</button>
+                <button type="submit" class="btn" value="Send">Submit</button>
             </form>
 
         </div>

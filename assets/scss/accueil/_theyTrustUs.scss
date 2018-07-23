@@ -31,6 +31,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: inherit;
+    overflow: hidden;
 }
 
 .trust_container .round_logo {
@@ -85,9 +91,9 @@
 }
 
 .img9 {
-    transform: scale(0.6, 0.6);
+    height: 106px !important;
 }
 
 .img10 {
-    height: 77px !important;
+    height: 79px !important;
 }

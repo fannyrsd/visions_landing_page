@@ -8,16 +8,21 @@
 }
 
 .modal .modal-header {
-    background-image: url("assets/img/popup/canvas.png");
-    height: 140px;
+    background-color: #143556;
+    height: 27%;
     color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
 }
 
 .modal .modal_number {
-    display: inline-block;
+    display: flex;
     font-size: 72px;
     color: #FFD700;
     margin: 0;
+    align-items: center;
 }
 
 .modal_picto_container {
@@ -25,7 +30,7 @@
 }
 
 .modal .modal_title {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 500;
 }
 
