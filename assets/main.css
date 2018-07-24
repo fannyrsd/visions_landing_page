@@ -588,14 +588,19 @@ input.valid[type=text]:not(.browser-default) {
   align-items: center;
   justify-content: center;
   width: 100% !important;
+  height: 210px;
   left: 0 !important;
   top: 0 !important;
-  background-color: #fefefe; }
+  background-color: #fefefe;
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
 .logo_slider {
   width: 24% !important;
   background-repeat: no-repeat;
-  background-size: contain !important; }
+  background-size: contain !important;
+  margin-left: 2%;
+  margin-right: 2%; }
 
 .fannyjtm {
   display: flex;
@@ -625,38 +630,8 @@ input.valid[type=text]:not(.browser-default) {
 .slider .indicators .indicator-item.active {
   background-color: #FAD749 !important; }
 
-.img1 {
-  height: 100px !important; }
-
-.img2 {
-  height: 270px !important;
-  transform: scale(0.6, 0.6); }
-
-.img3 {
-  height: 47px !important; }
-
-.img4 {
-  height: 84px !important; }
-
-.img5 {
-  height: 49px !important; }
-
-.img6 {
-  height: 51px !important; }
-
-.img7 {
-  height: 65px !important; }
-
-.img8 {
-  height: 228px !important;
-  transform: scale(0.6, 0.6); }
-
 .img9 {
   height: 179px !important;
-  transform: scale(0.6, 0.6); }
-
-.img10 {
-  height: 145px !important;
   transform: scale(0.6, 0.6); }
 
 @media (max-width: 1150px) {
