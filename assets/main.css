@@ -167,7 +167,7 @@ CHOOSE VISIONS
 
 .choose_container .choose_block img {
   height: 200px;
-  width: 90% !important; }
+  width: 40% !important; }
 
 .padlock {
   height: 215px; }
@@ -178,7 +178,8 @@ CHOOSE VISIONS
   margin-right: auto; }
 
 .choose_p {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  font-size: 1.1rem; }
 
 /******
 SLOGAN 
@@ -291,7 +292,6 @@ canvas {
   margin-right: 3%;
   width: 150px;
   height: 150px;
-  border: solid #00A359 3px;
   border-radius: 100%; }
 
 .cleandata_container img.logo_expert {
@@ -589,7 +589,13 @@ input.valid[type=text]:not(.browser-default) {
   justify-content: center;
   width: 100% !important;
   left: 0 !important;
-  top: 0 !important; }
+  top: 0 !important;
+  background-color: #fefefe; }
+
+.logo_slider {
+  width: 24% !important;
+  background-repeat: no-repeat;
+  background-size: contain !important; }
 
 .fannyjtm {
   display: flex;
@@ -607,47 +613,51 @@ input.valid[type=text]:not(.browser-default) {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 12rem !important;
-  height: 12rem;
-  background: #f4f4f4;
-  border-radius: 100%;
+  width: 25% !important;
+  height: 14rem;
   overflow: hidden;
-  margin-left: 3%;
-  margin-right: 3%; }
+  margin-left: 2%;
+  margin-right: 2%; }
 
 .active_logo {
   display: flex !important; }
 
-.trust_container .slider .indicators .indicator-item.active {
-  background-color: #FAD749; }
+.slider .indicators .indicator-item.active {
+  background-color: #FAD749 !important; }
 
 .img1 {
-  height: 90px !important; }
+  height: 100px !important; }
 
 .img2 {
-  height: 220px !important;
+  height: 270px !important;
   transform: scale(0.6, 0.6); }
 
 .img3 {
-  height: 38px !important; }
+  height: 47px !important; }
 
 .img4 {
-  height: 67px !important; }
+  height: 84px !important; }
 
 .img5 {
-  height: 40px !important; }
+  height: 49px !important; }
 
 .img6 {
-  height: 40px !important; }
+  height: 51px !important; }
 
 .img7 {
   height: 65px !important; }
 
+.img8 {
+  height: 228px !important;
+  transform: scale(0.6, 0.6); }
+
 .img9 {
-  height: 106px !important; }
+  height: 179px !important;
+  transform: scale(0.6, 0.6); }
 
 .img10 {
-  height: 79px !important; }
+  height: 145px !important;
+  transform: scale(0.6, 0.6); }
 
 @media (max-width: 1150px) {
   .left_header {
