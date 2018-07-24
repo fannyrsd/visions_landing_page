@@ -603,9 +603,9 @@ input.valid[type=text]:not(.browser-default) {
   margin-right: 2%; }
 
 .fannyjtm {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
   position: absolute;
   top: 0;
   left: 0;

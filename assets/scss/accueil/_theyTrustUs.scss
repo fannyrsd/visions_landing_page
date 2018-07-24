@@ -40,9 +40,9 @@
 }
 
 .fannyjtm {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
     position: absolute;
     top: 0;
     left: 0;
@@ -70,8 +70,6 @@
 .slider .indicators .indicator-item.active {
     background-color: #FAD749 !important;
 }
-
-
 
 .img9 {
     height: 179px !important;
