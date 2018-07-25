@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $('.trust_slider').slider({
         indicators: false,
-        interval: 1500
+        transition: 100,
+        interval: 5000
     });
   });

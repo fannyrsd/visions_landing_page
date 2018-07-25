@@ -12,7 +12,24 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900" rel="stylesheet">
     <!-- Compiled and minified CSS for Materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <!-- Slider -->
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/logos/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/logos/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../assets/img/logos/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/logos/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
 
 </head>
@@ -45,29 +62,32 @@
     </header>
 
     <h1 class="title">Get your PrivacyTech !</h1>
+    <div class="italique">We will use these informations only to contact you to set up your privacy tool.</div>
     <p class="col s6">Fill out this form and you will get a set up of your consent management interface !</p>
     <div class="container">
         <div class="row">
-            <form action="mailto:matthias@visionspol.eu" method="post" enctype="text/plain">
+                <form action="https://formspree.io/matthias@visionspol.eu" method="post">
                 <div class="input-field col s12">
-                    <input id="purpose" type="text" class="validate">
+                    <input id="purpose" name="Purpose" type="text" class="validate">
                     <label for="purpose">Purpose : what do you do with the data ? Advertising, stats, Matching...</label>
                 </div>
                 <div class="input-field col s12">
-                    <input id="description" type="text" class="validate">
+                    <input id="description" name="Description" type="text" class="validate">
                     <label for="description">Description : detail the purpose to notify your users</label>
                 </div>
                 <div class="input-field col s12">
-                    <input id="perso_data" type="text" class="validate">
+                    <input id="perso_data" type="text" name="Personnal Data" class="validate">
                     <label for="perso_data">What personnal data do you require consent on for this purpose (separate them by coma)?</label>
-                </div>
+                </div>                
                 <div class="input-field col s12">
-                    <input id="contact" type="text" class="validate">
+                    <input id="contact" type="text" name="Contact" class="validate">
                     <label for="contact">How do we contact you to send the interface ?</label>
                 </div>
+                <input type="hidden" name="_next" value="../index.html" />
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="hidden" name="_subject" value="For a Demo" />
                 <button type="submit" class="btn">Submit</button>
             </form>
-
         </div>
     </div>
 

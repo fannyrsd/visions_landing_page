@@ -23,13 +23,23 @@
 }
 
 .team_container .slider .slides li img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border-radius: 100%;
 }
 
 .team_container .slider .slides li img.virtual_conf {
-    height: 100px;
+    height: 78px !important;
+}
+
+.team_container .slider .slides li img.privacy_tech {
+    height: 170px !important;
+    border-radius: 0% !important;
+}
+
+.team_container .slider .slides li img.jollyclick_slider {
+    height: 125px;
+    width: 125px;
 }
 
 .team_container .slider .slides li {

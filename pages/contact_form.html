@@ -12,7 +12,24 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900" rel="stylesheet">
     <!-- Compiled and minified CSS for Materialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <!-- Slider -->
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/logos/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logos/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/logos/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logos/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
 
 
@@ -45,43 +62,48 @@
     </header>
 
     <h1 class="title">Lets' meet !</h1>
+    <div class="italique">We will use these informations only to contact you to set up a call</div>
     <p class="col s6">Fill out this form so we can arrange a
         <b>30 minute free call</b> to guide you in next steps !</p>
     <div class="container">
         <div class="row">
 
-            <form action="https://formspree.io/matthias@visionspol.eu" method="post" enctype="text/plain">
+            <form action="https://formspree.io/matthias@visionspol.eu" method="post">
+
                 <p class="col s12 subtitle">How far are you in your privacy project / compliance ?</p>
                 <label class="col s12">
-                    <input class="input-field" name="name" type="radio" />
+                    <input class="input-field" name="Haven't started" type="radio" />
                     <span>Haven't started but getting more and more demands on the subject</span>
                 </label>
                 <label class="col s12">
-                    <input class="input-field" name="name" type="radio" />
+                    <input class="input-field" name="I am quite concerned" type="radio" />
                     <span>I've read some articles and I am quite concerned</span>
                 </label>
                 <label class="col s12">
-                    <input class="input-field" name="name" type="radio" />
+                    <input class="input-field" name="We've started mapping our data" type="radio" />
                     <span>We've started mapping our data and processes for the processing ledger</span>
                 </label>
                 <label class="col s12">
-                    <input class="input-field" name="name" type="radio" />
+                    <input class="input-field" name="We have finished our mapping" type="radio" />
                     <span>We have finished our mapping and handled basic compliance but we want to go further to earn users' trust
                         !
                     </span>
                 </label>
-                <div class="input-field col s12">
-                    <input id="website" type="text" class="validate" name="name">
-                    <label for="website">Do you have a website ?</label>
+
+                <div class="input-field">
+                    <input id="website" type="text" name="Website" placeholder="Do you have a website?">
                 </div>
-                <div class="input-field col s12">
-                    <input id="details" type="text" class="validate" name="name">
-                    <label for="details">Want to share any other specific details? Have any specific complex problems ?</label>
+                <div class="input-field">
+                    <input id="details" type="text" name="details">
+                    <label for="details">Do you want to share any other specific details? Have any specific complex problems ?</label>
                 </div>
-                <div class="input-field col s12">
-                    <input id="contact" type="text" class="validate" name="name">
-                    <label for="contact">How can we contact you ?</label>
+                <div class="input-field">
+                    <input id="contact" type="text" name="How to contact">
+                    <label for="contact">How can we contact you?</label>
                 </div>
+                <input type="hidden" name="_next" value="../index.html" />
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="hidden" name="_subject" value="For a meet" />
                 <button type="submit" class="btn" value="Send">Submit</button>
             </form>
 

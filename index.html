@@ -16,6 +16,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenLite.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/CSSPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/ScrollToPlugin.min.js"></script>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/logos/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logos/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/logos/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logos/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -29,16 +47,16 @@
                 </a>
                 <ul id="nav-mobile">
                     <li class="left_header ppm_header">
-                        <a href="#">Privacy project management</a>
+                        <a class="links" href="#">Privacy project management</a>
                     </li>
                     <li class="left_header ttu_header">
-                        <a href="#">They trust us</a>
+                        <a class="links" href="#">They trust us</a>
                     </li>
                     <li class="right_header tap_header">
-                        <a href="#">Team and partners</a>
+                        <a class="links" href="#">Team and partners</a>
                     </li>
                     <li class="right_header cdw_header">
-                        <a href="#">CleanData Workshops</a>
+                        <a class="links" href="#">CleanData Workshops</a>
                     </li>
                 </ul>
             </div>
@@ -64,7 +82,7 @@
     </div>
 
     <!-- Choose Visions -->
-    <div class="choose_container">
+    <div class="choose_container" id="cv">
         <h2 class="title">Choose Visions</h2>
         <div class="center choose_img">
             <div class="row">
@@ -76,7 +94,8 @@
                 <div class="choose_block center col s4">
                     <img src="assets/img/picto/database.svg" alt="database">
                     <p class='choose_p'>Implement best privacy standards to manage rights and information. Make privacy by design a strategic
-                        choice.</p>
+                        choice.
+                    </p>
                 </div>
                 <div class="choose_block center col s4">
                     <img class="padlock" src="assets/img/picto/padlock_smile.svg" alt="padlock">
@@ -233,7 +252,7 @@
             <ul class="slides">
                 <li class="fannyjtm">
                     <div class="ttu_slides">
-                        <img class="logo_slider" src="assets/img/logos/smiile.svg" alt="smiile">                
+                        <img class="logo_slider" src="assets/img/logos/smiile.svg" alt="smiile">
                         <img class="logo_slider" src="assets/img/logos/kawaa.svg" alt="kawaa">
                         <img class="logo_slider" src="assets/img/logos/jollyclick.svg" alt="jollyclick">
                         <img class="logo_slider" src="assets/img/logos/impala.svg" alt="impala">
@@ -241,7 +260,7 @@
                 </li>
                 <li class="fannyjtm">
                     <div class="ttu_slides">
-                        <img class="logo_slider" src="assets/img/logos/destygo.svg" alt="destygo">                
+                        <img class="logo_slider" src="assets/img/logos/destygo.svg" alt="destygo">
                         <img class="logo_slider" src="assets/img/logos/civocracy.svg" alt="civocracy">
                         <img class="logo_slider" src="assets/img/logos/vendredi.svg" alt="vendredi">
                         <img class="logo_slider" src="assets/img/logos/awa.svg" alt="awa">
@@ -251,16 +270,13 @@
                     <div class="ttu_slides">
                         <img class="logo_slider" src="assets/img/logos/adhap.svg" alt="adhap">
                         <img class="logo_slider" src="assets/img/logos/domidom.svg" alt="domidom">
+                        <img class="logo_slider" src="assets/img/logos/novas.jpg" alt="novas">
                         <img class="logo_slider" src="assets/img/logos/tmm.svg" alt="tmm">
                     </div>
                 </li>
             </ul>
         </div>
     </div>
-
-
-
-
 
     <!-- CleanData Workshops -->
     <div class="cleandata_container" id="cdw">
@@ -296,7 +312,7 @@
                 <img class="logo_expert ovh" src="assets/img/logos/ovh.svg" alt="ovh">
             </div>
         </div>
-        <a class="waves-effect waves-light btn cleandata_btn" href="#">Get lifetime access for 9.99 €</a>
+        <a class="waves-effect waves-light btn cleandata_btn" href="https://cleandata-platform.virtualconference.com" target="_blank">Get lifetime access for 9.99 €</a>
     </div>
 
     <!-- Team and partners -->
@@ -318,8 +334,7 @@
                     <div class="caption left-align">
                         <h3 class="name">Fanny Ravassard</h3>
                         <h5 class="light grey-text text-lighten-3 function">UX/UI Designer</h5>
-                        <p class="description">"As a student at HETIC, I am very interested in the new data laws and the use that can be made of
-                            them. As well as allowing everyone to manage them as much as possible”</p>
+                        <p class="description">"As a student at HETIC, I am very interested in the new data laws and the use that can be made of them. As well as allowing everyone to manage them as much as possible.”</p>
                     </div>
                 </li>
                 <li>
@@ -327,34 +342,33 @@
                     <div class="caption left-align">
                         <h3 class="name">Paul Lamy</h3>
                         <h5 class="light grey-text text-lighten-3 function">Developer</h5>
-                        <p class="description">"Student at hetic, I am very interested in the questions of the future and VISIONS is a fundamental
-                            player in the development of the web of tomorrow"</p>
+                        <p class="description">"Student at hetic, I am very interested in the questions of the future and VISIONS is a fundamental player in the development of the web of tomorrow."</p>
                     </div>
                 </li>
                 <li>
                     <img src="assets/img/team/virtual_conference.png" alt="ceo" class="team_picture virtual_conf">
                     <div class="caption left-align">
-                        <h3 class="name">Virtual conference</h3>
+                        <h3 class="name">Virtual Conference</h3>
                         <h5 class="light grey-text text-lighten-3 function">Partner</h5>
                         <p class="description">"The first on-demand conference platform, bringing the best speakers to the world and the world to
                             the best speakers.”</p>
                     </div>
                 </li>
                 <li>
-                    <img src="assets/img/team/privacytech.png" alt="ceo" class="team_picture">
+                    <img src="assets/img/team/privacytech.png" alt="ceo" class="team_picture privacy_tech">
                     <div class="caption left-align">
-                        <h3 class="name">Privacytech</h3>
+                        <h3 class="name">PrivacyTech</h3>
                         <h5 class="light grey-text text-lighten-3 function">Partner</h5>
                         <p class="description">"PRIVACY TECH is a collaborative innovation project to receive, promote and co-develop legal-technical
-                            solutions for the protection of privacy on the Internet"</p>
+                            solutions for the protection of privacy on the Internet."</p>
                     </div>
                 </li>
                 <li>
-                    <img src="assets/img/team/jollyclick_round.svg" alt="ceo" class="team_picture">
+                    <img src="assets/img/team/jollyclick_round.svg" alt="ceo" class="team_picture jollyclick_slider">
                     <div class="caption left-align">
                         <h3 class="name">Jollyclick</h3>
                         <h5 class="light grey-text text-lighten-3 function">Partner</h5>
-                        <p class="description">"Projects dating site : first application to implement Visions' unique data control technology"</p>
+                        <p class="description">"Projects dating site : first application to implement Visions' unique data control technology."</p>
                     </div>
                 </li>
             </ul>
