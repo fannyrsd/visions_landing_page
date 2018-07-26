@@ -29,6 +29,14 @@
     }
 }
 
+@media (max-width: 1000px) {
+    .cleandata {
+        left: 6% !important;
+        top: 71%;
+        height: 100px !important;
+    }
+}
+
 
 @media (max-width: 900px) {
     .slogan {
@@ -36,6 +44,12 @@
     }
     .choose_container .choose_block img{
         height: 150px !important;
+    }
+    .left_header {
+        display: none;
+    }
+    .right_header {
+        display: none;
     }
 }
 
@@ -52,6 +66,26 @@
     .links{
         font-size: 0.8rem !important;
         padding: 0;
+    }
+    .btn {
+        width: 100px !important;
+        height: 100px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        line-height: 1.4 !important;
+    }
+    .slogan_container .btn {
+        bottom: 30px;
+    }
+    .scroll_indicator {
+        top: 75%;
+    }
+    .ttu_slides {
+        height: 160px;
+    }
+    .trust_container {
+        height: 350px;
     }
 }
 
@@ -73,6 +107,14 @@
     }
     .slogan {
         font-size: 1.6rem !important;
+    }
+    .btn {
+        width: 80px !important;
+        height: 80px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        line-height: 1 !important;
     }
 }
 
