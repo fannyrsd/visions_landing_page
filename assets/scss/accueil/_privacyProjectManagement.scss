@@ -5,10 +5,10 @@
 }
 
 .ppm_container .ppm_block {
-    display: inline-block;
-    width: 200px;
-    height: 272px;
+    display: inline-flex;
+    flex-direction: column;
     position: relative;
+    align-items: center;
 }
 
 .ppm_container .top {
@@ -20,13 +20,25 @@
 }
 
 .ppm_container .ppm_block .round {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     background: #143556;
     border-radius: 100%;
     width: 200px;
     height: 200px;
     box-shadow: 10px 10px 50px grey;
     color: #FFD700;
+}
+
+.ppm_row {
+    display: flex !important;
+    width: 90% !important;
+}
+
+.exploration {
+    margin-right: 29%;
+    display: flex;
+    justify-content: center;
 }
 
 .ppm_container .ppm_block .round:hover {
@@ -57,7 +69,7 @@
 
 .ppm_container .ppm_line.line2 {
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 70%;
     transform: rotate(40deg);
 }
@@ -71,12 +83,14 @@
 
 .ppm_container .ppm_picto {
     position: absolute;
-    top: 28%;
-    left: 27%;
-    width: 90px;
+    top: 31%;
+    width: 70px;
+    display: flex;
+    align-self: center;
 }
 
 .ppm_wrapper {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
+    padding-top: 30px;
 }

@@ -5,7 +5,7 @@ MENU
 .nav {
     background-color: #FFD700 !important;
     position: fixed;
-    z-index: 100;
+    z-index: 100000;
 }
 
 .brand-logo {
@@ -32,5 +32,48 @@ MENU
     margin-left: 5%;
 }
 
-// #nav-mobile li {
-// }
+.bar {
+    width: 40px;
+    height: 5px;
+    background-color: #1C3553;
+    border-radius: 1%;
+    margin-bottom: 8px;
+}
+
+.burger {
+    z-index: 12345;
+    position: absolute;
+    background-color: #FFD700;
+    width: 30%;
+    right: 0;
+    height: 256px;
+    display: none;
+} 
+
+.crystal_magique {
+    z-index: 12345;
+    position: absolute;
+    width: 30%;
+    right: 0;
+    height: 256px;
+    display: none;
+    overflow: hidden;
+}
+
+.menu_burger {
+    display: none;
+    float: right;
+    margin-right: 3%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.jdg {
+    width: 100%;
+    height: 100%;
+}
+
+.links2 {
+    opacity: 0;
+    color: #1C3553;
+}
