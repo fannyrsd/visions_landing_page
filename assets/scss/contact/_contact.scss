@@ -94,11 +94,12 @@ input.valid[type=text]:not(.browser-default) {
     color: #FAD749;
 }
 
+.subtitle {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
 .solutions {
-    .subtitle {
-        font-weight: 600;
-        font-size: 1.2rem;
-    }
     .solution_item {
         display: inline-block;
         p {
@@ -121,4 +122,41 @@ input.valid[type=text]:not(.browser-default) {
 .visionsTrustEx {
     background: #143556;
     color: #f4f4f4;
+    em {
+        font-weight: 600;
+        font-style: normal;
+        color: #FAD749;
+    }
+    .leftContent,.rightContent {
+        display: inline-block;
+        margin-top: 3%;
+    }
+    p {
+        width: 670px;
+    }
+    .introduction {
+        width: 95%;
+    }
+    .in {
+        padding-top: 3%;
+    }
+    .tool_allow,.centralized,.statistic {
+        display: flex;
+        align-items: center;
+    }
+    .rightContent {
+        img {
+            margin-left: 205px;
+        }
+    }
+    .whatWeDo {
+        margin-left: 40%;
+    }
+    .btn {
+        margin-left: 75%;
+    }
+
 }
+
+
+

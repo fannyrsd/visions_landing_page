@@ -655,9 +655,10 @@ input.valid[type=text]:not(.browser-default) {
   font-weight: 600;
   color: #FAD749; }
 
-.solutions .subtitle {
+.subtitle {
   font-weight: 600;
   font-size: 1.2rem; }
+
 .solutions .solution_item {
   display: inline-block; }
   .solutions .solution_item p {
@@ -675,6 +676,28 @@ input.valid[type=text]:not(.browser-default) {
 .visionsTrustEx {
   background: #143556;
   color: #f4f4f4; }
+  .visionsTrustEx em {
+    font-weight: 600;
+    font-style: normal;
+    color: #FAD749; }
+  .visionsTrustEx .leftContent, .visionsTrustEx .rightContent {
+    display: inline-block;
+    margin-top: 3%; }
+  .visionsTrustEx p {
+    width: 670px; }
+  .visionsTrustEx .introduction {
+    width: 95%; }
+  .visionsTrustEx .in {
+    padding-top: 3%; }
+  .visionsTrustEx .tool_allow, .visionsTrustEx .centralized, .visionsTrustEx .statistic {
+    display: flex;
+    align-items: center; }
+  .visionsTrustEx .rightContent img {
+    margin-left: 205px; }
+  .visionsTrustEx .whatWeDo {
+    margin-left: 40%; }
+  .visionsTrustEx .btn {
+    margin-left: 75%; }
 
 /* They trust us */
 .trust_container {
