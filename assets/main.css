@@ -635,6 +635,47 @@ input.valid[type=text]:not(.browser-default) {
   font-style: italic;
   margin-left: 40px; }
 
+.importantText {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-left: 40px;
+  width: 95%; }
+
+.question_container {
+  width: 100%;
+  background: #143556;
+  color: #f4f4f4; }
+
+.question_mark {
+  font-weight: 900;
+  color: #FAD749; }
+
+.strategic {
+  margin-top: 3%;
+  font-weight: 600;
+  color: #FAD749; }
+
+.solutions .subtitle {
+  font-weight: 600;
+  font-size: 1.2rem; }
+.solutions .solution_item {
+  display: inline-block; }
+  .solutions .solution_item p {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10%; }
+.solutions .final_text {
+  margin-top: 2%; }
+  .solutions .final_text em {
+    font-style: normal;
+    font-weight: 600;
+    color: #143556;
+    font-size: 1.4rem; }
+
+.visionsTrustEx {
+  background: #143556;
+  color: #f4f4f4; }
+
 /* They trust us */
 .trust_container {
   display: flex;
@@ -1016,5 +1057,3 @@ p {
 .indicators {
   padding: 1% !important;
   z-index: 300; }
-
-/*# sourceMappingURL=main.css.map */
