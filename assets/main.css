@@ -684,7 +684,9 @@ input.valid[type=text]:not(.browser-default) {
     display: inline-block;
     margin-top: 3%; }
   .visionsTrustEx p {
-    width: 670px; }
+    display: inline-block;
+    width: 70%;
+    margin-right: 3%; }
   .visionsTrustEx .introduction {
     width: 95%; }
   .visionsTrustEx .in {

@@ -132,7 +132,9 @@ input.valid[type=text]:not(.browser-default) {
         margin-top: 3%;
     }
     p {
-        width: 670px;
+        display: inline-block;
+        width: 70%;
+        margin-right: 3%;
     }
     .introduction {
         width: 95%;
