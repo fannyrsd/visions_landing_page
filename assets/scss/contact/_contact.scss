@@ -6,6 +6,10 @@ CONTACT FORM
 ***************
 *********/
 
+.fullorno {
+    overflow-x: hidden;
+}
+
 .form p {
     margin-left: 40px;
 }
@@ -119,6 +123,13 @@ input.valid[type=text]:not(.browser-default) {
     }
 }
 
+@media (max-width: 900px) {
+    .visionsTrustEx {
+        img {
+            width: 90%;
+        }
+    }
+}
 .visionsTrustEx {
     background: #143556;
     color: #f4f4f4;
@@ -146,13 +157,8 @@ input.valid[type=text]:not(.browser-default) {
         display: flex;
         align-items: center;
     }
-    .rightContent {
-        img {
-            margin-left: 205px;
-        }
-    }
     .whatWeDo {
-        margin-left: 40%;
+        width: 100%;
     }
     .btn {
         margin-left: 75%;

@@ -582,6 +582,9 @@ CONTACT FORM
 *************************
 ***************
 *********/
+.fullorno {
+  overflow-x: hidden; }
+
 .form p {
   margin-left: 40px; }
 
@@ -673,6 +676,9 @@ input.valid[type=text]:not(.browser-default) {
     color: #143556;
     font-size: 1.4rem; }
 
+@media (max-width: 900px) {
+  .visionsTrustEx img {
+    width: 90%; } }
 .visionsTrustEx {
   background: #143556;
   color: #f4f4f4; }
@@ -694,10 +700,8 @@ input.valid[type=text]:not(.browser-default) {
   .visionsTrustEx .tool_allow, .visionsTrustEx .centralized, .visionsTrustEx .statistic {
     display: flex;
     align-items: center; }
-  .visionsTrustEx .rightContent img {
-    margin-left: 205px; }
   .visionsTrustEx .whatWeDo {
-    margin-left: 40%; }
+    width: 100%; }
   .visionsTrustEx .btn {
     margin-left: 75%; }
 
